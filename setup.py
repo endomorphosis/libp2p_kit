@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
 	name='lihp2p_kit_py',
-	version='0.0.7',
+	version='0.0.9',
 	packages=[
 		'libp2p_kit_py',
 	],
@@ -14,10 +14,12 @@ setup(
         'toml',
 	],
     package_data={
-        'orbitdb_kit': [
-            'orbitv3-slave-swarm.js',
-        	'package.json',
-            'yarn.lock'
+        'libp2p_kit_py': [
+            'aria2_kit',
+			's3_kit',
+			'websocket_kit',
+			'websocket_kit_lib',
+			'libp2p_kit',
         ]
     },
 	include_package_data=True,
