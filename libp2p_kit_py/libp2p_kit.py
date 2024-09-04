@@ -1,10 +1,10 @@
-from .libp2p_kit import libp2p_kit
+from .libp2p_kit import libp2p
 from .aria2_kit import aria2_kit
 from .s3_kit import s3_kit
 from .websocket_kit import websocket_kit
 from .websocket_kit import websocket_kit_lib
 
-class libp2p_kit_py:
+class libp2p_kit:
     def __init__(self, resources, metadata):
         self.libp2p_kit = libp2p_kit(resources, metadata)
         self.aria2_kit = aria2_kit(resources, metadata)

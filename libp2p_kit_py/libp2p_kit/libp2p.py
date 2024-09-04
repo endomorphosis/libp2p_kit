@@ -1,4 +1,4 @@
-class  libp2p_kit:
+class  libp2p:
     def __init__(self, resources, metadata):
         
         return None
