@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
 	name='lihp2p_kit_py',
-	version='0.0.6',
+	version='0.0.7',
 	packages=[
 		'libp2p_kit_py',
 	],
