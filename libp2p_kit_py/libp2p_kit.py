@@ -1,3 +1,6 @@
+from libp2p_kit_py import libp2p_kit_py
+
+
 class libp2p_kit_py:
     def __init__(self):
         self.config = None
