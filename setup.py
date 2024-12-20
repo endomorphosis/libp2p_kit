@@ -1,26 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
 	name='lihp2p_kit_py',
-	version='0.0.13',
-	packages=[
-		'libp2p_kit_py',
-	],
+	version='0.0.18',
+	packages=find_packages(),
 	install_requires=[
-		'datasets',
-		'urllib3',
-		'requests',
-		'boto3',
-        'toml',
-	],
-    package_data={
-        'libp2p_kit_py': [
-            'aria2_kit',
-			's3_kit',
-			'websocket_kit',
-			'websocket_kit_lib',
-			'libp2p_kit',
-        ]
-    },
-	include_package_data=True,
+	]
 )
